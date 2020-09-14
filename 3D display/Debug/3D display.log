@@ -1,0 +1,17 @@
+﻿  变化线展示.cpp
+f:\repos\3d display\3d display\变化线展示.cpp(65): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(67): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(75): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(77): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(92): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(94): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(102): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(104): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(119): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(125): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(197): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(203): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(209): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\变化线展示.cpp(333): warning C4018: “<”: 有符号/无符号不匹配
+f:\repos\3d display\3d display\变化线展示.cpp(339): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+  3D display.vcxproj -> F:\repos\3D display\Debug\3D display.exe
