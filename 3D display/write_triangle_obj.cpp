@@ -14,11 +14,11 @@ void main()
 
 	err = fopen_s(&fp, "triangle.obj", "a"); //若return 1 , 则将指向这个文件的文件流给fp1
 
-	float a = 14;             //三角形边长
+	float a = 15;             //三角形边长
 	float thickness = 1.0;      //壳厚
 	float h = 80;
 
-	int m0 = 20, n0 = 20;//m列数（一行几个），n行数（有几行），l有几层
+	int m0 = 10, n0 = 10;//m列数（一行几个），n行数（有几行），l有几层
 
 	int m = 0, n = 0, l = 0; //计数器
     float x = a + thickness, y = 0.5*sqrt(3)*(a + thickness);//偏移值 
