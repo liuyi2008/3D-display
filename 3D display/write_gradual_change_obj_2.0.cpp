@@ -13,16 +13,16 @@ void main()
 
 	errno_t err;     //判断此文件流是否存在 存在返回1
 
-	err = fopen_s(&fp, "gradual_change.obj", "a"); //若return 1 , 则将指向这个文件的文件流给fp1
+	err = fopen_s(&fp, "gradual_change_a20t1_100.obj", "a"); //若return 1 , 则将指向这个文件的文件流给fp1
 
 	float a = 20;                       //三角形边长
 	float t = 1.0;                     //壳厚
-	float h = 80;                     //盒子的高度
-	if (h >= 0.25*sqrt(3)*a - t)
-		printf("可打印");
-	else
-		printf("不可打印");
-	int m0 = 10, n0 = 10;            //m列数（一行几个），n行数（有几行），l有几层
+	float h = 0.5*sqrt(3)*a - t;                     //盒子的高度
+	//if (h >= 0.5*sqrt(3)*a - t)
+	//	printf("可打印");
+	//else
+	//	printf("不可打印");
+	int m0 = 100, n0 = 100;            //m列数（一行几个），n行数（有几行），l有几层
 	float x = a + sqrt(3)*t, y = 0.5*sqrt(3)* a + 1.5 * t;//偏移值 
 
 	int r = 0;//点数计数器

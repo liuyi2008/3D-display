@@ -1,76 +1,25 @@
-﻿  write_gradual_change_obj_2.0.cpp
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(11): warning C4326: “main”的返回类型应为“int”而非“void”
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(34): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(34): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(35): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(35): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(36): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(36): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(37): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(37): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(39): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(39): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(40): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(40): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(41): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(41): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(42): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(42): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(44): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(44): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(45): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(45): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(46): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(46): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(47): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(47): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(49): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(49): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(50): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(50): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(51): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(51): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(53): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(53): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(54): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(54): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(55): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(55): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(114): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(114): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(115): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(115): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(116): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(116): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(117): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(117): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(119): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(119): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(120): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(120): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(121): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(121): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(122): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(122): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(124): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(124): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(125): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(125): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(126): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(126): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(127): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(127): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(129): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(129): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(130): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(130): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(131): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(131): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(133): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(133): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(134): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(134): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(135): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
-f:\repos\3d display\3d display\write_gradual_change_obj_2.0.cpp(135): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+﻿  animation_gradual_change.cpp
+f:\repos\3d display\3d display\animation_gradual_change.cpp(64): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(66): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(72): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(74): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(76): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(82): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(84): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(86): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(100): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(102): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(104): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(110): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(112): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(114): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(120): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(122): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(124): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(138): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(144): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(168): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(174): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\repos\3d display\3d display\animation_gradual_change.cpp(229): warning C4018: “<”: 有符号/无符号不匹配
+f:\repos\3d display\3d display\animation_gradual_change.cpp(235): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
   3D display.vcxproj -> F:\repos\3D display\Debug\3D display.exe

@@ -12,10 +12,10 @@ void main()
 
 	errno_t err;     //判断此文件流是否存在 存在返回1
 
-	err = fopen_s(&fp, "test obj.obj", "a"); //若return 1 , 则将指向这个文件的文件流给fp1
+	err = fopen_s(&fp, "our_a9.134t1_500.obj", "a"); //若return 1 , 则将指向这个文件的文件流给fp1
 
 
-	float a = 20.0;             //三角形边长
+	float a = 9.134;             //三角形边长
 	float thickness = 1.0;      //壳厚
 	float h = 0.5*a*0.333*sqrt(3) * 4; //45°
 	//float h = 2*0.333*a;  //30°
@@ -26,12 +26,13 @@ void main()
 	//int m0 = 5, n0 = 5, l0 = 5;//m列数（一行几个），n行数（有几行），l有几层
 
 	int m = 0, n = 0, l = 0; //计数器
-	float length = 200;
-	float width = 150;
-	float high = 200;
+	float length = 500;
+	float width = 500;
+	float high = 500;
 	//外包盒的长宽高
 
-    float x = a + thickness, y = 0.5*sqrt(3)*(a + thickness), z = h + thickness;//偏移值 
+    //float x = a + thickness, y = 0.5*sqrt(3)*(a + thickness), z = h + thickness;//偏移值 
+	float x = a + sqrt(3)*thickness, y = 0.5*sqrt(3)* a + 1.5 * thickness, z = h + 0.5*thickness;
 
 	int r = 0;//点数计数器
 
@@ -94,21 +95,21 @@ void main()
 			for (m = 0;  a + m * x + n * 0.5*x < length - a; m++)
 			{
 
-				point O1 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,   0.5*0.333*sqrt(3)*a + n * y + 0.333*y,   0.00 + l * z + 0.5*z };
+				point O1 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,   0.5*0.333*sqrt(3)*a + n * y + 0.333*y,   0.00 + l * z + 0.5*h+0.5*thickness };
 
-				point D2 = { 0.00 + m * x + n * 0.5*x + 0.5*x,    a*0.33*sqrt(3) + n * y + 0.333*y,        0.25*h + l * z + 0.5*z };
-				point E3 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,   -0.5*0.333*sqrt(3)*a + n * y + 0.333*y,  0.25*h + l * z + 0.5*z };
-				point F4 = { a + m * x + n * 0.5*x + 0.5*x,       a*0.33*sqrt(3) + n * y + 0.333*y,        0.25*h + l * z + 0.5*z };
+				point D2 = { 0.00 + m * x + n * 0.5*x + 0.5*x,    a*0.33*sqrt(3) + n * y + 0.333*y,        0.25*h + l * z + 0.5*h + 0.5*thickness };
+				point E3 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,   -0.5*0.333*sqrt(3)*a + n * y + 0.333*y,  0.25*h + l * z + 0.5*h + 0.5*thickness };
+				point F4 = { a + m * x + n * 0.5*x + 0.5*x,       a*0.33*sqrt(3) + n * y + 0.333*y,        0.25*h + l * z + 0.5*h + 0.5*thickness };
 
-				point G5 = { 0.00 + m * x + n * 0.5*x + 0.5*x,    0.00 + n * y + 0.333*y,                  0.5*h + l * z + 0.5*z };
-				point H6 = { a + m * x + n * 0.5*x + 0.5*x,       0.00 + n * y + 0.333*y,                  0.5*h + l * z + 0.5*z };
-				point I7 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,   0.5*sqrt(3)*a + n * y + 0.333*y,         0.5*h + l * z + 0.5*z };
+				point G5 = { 0.00 + m * x + n * 0.5*x + 0.5*x,    0.00 + n * y + 0.333*y,                  0.5*h + l * z + 0.5*h+0.5*thickness };
+				point H6 = { a + m * x + n * 0.5*x + 0.5*x,       0.00 + n * y + 0.333*y,                  0.5*h + l * z + 0.5*h + 0.5*thickness };
+				point I7 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,   0.5*sqrt(3)*a + n * y + 0.333*y,         0.5*h + l * z + 0.5*h + 0.5*thickness };
 
-				point D8 = { 0.00 + m * x + n * 0.5*x + 0.5*x,    a*0.33*sqrt(3) + n * y + 0.333*y,        0.75*h + l * z + 0.5*z };
-				point E9 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,   -0.5*0.333*sqrt(3)*a + n * y + 0.333*y,  0.75*h + l * z + 0.5*z };
-				point F10 = { a + m * x + n * 0.5*x + 0.5*x,       a*0.33*sqrt(3) + n * y + 0.333*y,       0.75*h + l * z + 0.5*z };
+				point D8 = { 0.00 + m * x + n * 0.5*x + 0.5*x,    a*0.33*sqrt(3) + n * y + 0.333*y,        0.75*h + l * z + 0.5*h + 0.5*thickness };
+				point E9 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,   -0.5*0.333*sqrt(3)*a + n * y + 0.333*y,  0.75*h + l * z + 0.5*h + 0.5*thickness };
+				point F10 = { a + m * x + n * 0.5*x + 0.5*x,       a*0.33*sqrt(3) + n * y + 0.333*y,       0.75*h + l * z + 0.5*h + 0.5*thickness };
 
-				point O11 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,  0.5*0.333*sqrt(3)*a + n * y + 0.333*y,   h + l * z + 0.5*z };
+				point O11 = { 0.5*a + m * x + n * 0.5*x + 0.5*x,  0.5*0.333*sqrt(3)*a + n * y + 0.333*y,   h + l * z + 0.5*h + 0.5*thickness };
 
 				fprintf(fp, "v %f %f %f\n", O1.x, O1.y, O1.z);
 				fprintf(fp, "v %f %f %f\n", D2.x, D2.y, D2.z);
