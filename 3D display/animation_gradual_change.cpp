@@ -55,6 +55,8 @@ void drawTriangle_line() //╩Фжфр╩╦Жоб╣╔иок╚╣дхЩ╫гпнё╛т╜╣ЦйгхЩ╫гпн╣джппд╣Цё╛уБюО╣
 {
 	//glEnable(GL_LINE_SMOOTH);
 
+	glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
+
 	glColor3f(1.0f, 0.0f, 0.0f);
 
 	glBegin(GL_LINE_LOOP); //об╣╔иок╚
